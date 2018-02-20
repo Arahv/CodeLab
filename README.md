@@ -11,6 +11,13 @@ Second screen with the temperature for day & time.
 
 ---
 
+# About Fucntionality face
+
+I have used a Call interface in retrofit, with normal design flow and i have
+got a nested response, since i have merged all in single class.
+
+---
+
 # Contributors
 
 - Aravind M <arahvin.arahv@gmail.com>
