@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">WeatherApp</string>
+  <string name="sample_date_hint">Date : 20/02/2018</string>
+  <string name="sample_min_temp_hint">Min : 32</string>
+  <string name="sample_max_temp_hint">Max : 36</string>
+  <string name="date_time_format">yyyy-MM-dd HH:mm:ss</string>
+  <string name="success_code">200</string>
+  <string name="enter_your_city_name">Enter your city name</string>
+</resources>

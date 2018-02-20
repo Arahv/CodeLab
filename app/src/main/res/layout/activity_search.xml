@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cognizant.weatherapp.activity.SearchActivity"
+    >
+
+  <android.support.design.widget.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/bt_search"
+      android:layout_centerInParent="true"
+      android:layout_marginLeft="@dimen/margin_normal"
+      android:layout_marginRight="20dp"
+      >
+    <EditText
+        android:id="@+id/et_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_city_name"
+        android:maxLines="1"
+        />
+  </android.support.design.widget.TextInputLayout>
+
+  <Button
+      android:id="@+id/bt_search"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:layout_margin="@dimen/margin_normal"
+      android:background="@drawable/bg_btn_rounded_corner"
+      android:onClick="search"
+      android:text="Search"
+      android:textColor="@android:color/white"
+      />
+
+
+</RelativeLayout>

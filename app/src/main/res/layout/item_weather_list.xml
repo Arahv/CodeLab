@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    >
+
+  <TextView
+      android:id="@+id/tv_date"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      tools:text="@string/sample_date_hint"
+      />
+
+  <TextView
+      android:id="@+id/tv_min_temp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/tv_date"
+      android:layout_marginTop="5dp"
+      android:textSize="16sp"
+      tools:text="@string/sample_min_temp_hint"
+
+      />
+  <TextView
+      android:id="@+id/tv_max_temp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_below="@+id/tv_date"
+      android:layout_marginTop="5dp"
+      android:textSize="16sp"
+      tools:text="@string/sample_max_temp_hint"
+      />
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="0.5dp"
+      android:layout_below="@+id/tv_max_temp"
+      android:layout_marginTop="10dp"
+      android:background="#C3c3c3"
+      />
+
+</RelativeLayout>
